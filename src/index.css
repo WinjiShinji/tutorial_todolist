@@ -1,0 +1,146 @@
+* { /* Clear Defaults */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Animation */
+/* TODO */
+
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: azure;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 40px;
+  background-color: cadetblue;
+}
+
+footer {
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: cadetblue;
+}
+
+main {
+  height: 100%;
+  min-height: calc(100vh - 114px);
+  width: 100%;
+  text-align: center;
+  background-color: azure;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 4px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+  list-style-type: none;
+  background-color: white;
+}
+
+li > img {
+  transform: scale(0.8);
+  margin-left: auto;
+}
+
+li > input[type=checkbox] {
+  transform: scale(2) translateX(50%);
+  margin-right: auto;
+}
+
+li > label {
+  padding: 10px;
+}
+
+li > img:hover,
+li > label:hover,
+li > input[type=checkbox]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 100%;
+  padding: 2px;
+}
+
+form > label {
+  position: absolute;
+  left: -999999px
+}
+
+form > input[type="text"] {
+  height: 100%;
+  width: 100%;
+  margin: 2px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+form > button {
+  height: 48px;
+  width: 48px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+}
+
+form > button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+form > button > img {
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
